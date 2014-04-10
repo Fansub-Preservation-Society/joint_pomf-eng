@@ -1,0 +1,805 @@
+﻿[Script Info]
+Title: TLRD
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Lato,50,&H00FCF7F8,&H000000FF,&H00370819,&HAA25030F,-1,0,0,0,100,100,0,0,1,2.9,1.5,2,120,120,42,1
+Style: Alternative,Lato,50,&H00FCFAF7,&H000000FF,&H00372C08,&HAA251603,-1,0,0,0,100,100,0,0,1,2.9,1.5,8,120,120,42,1
+Style: Top,Lato,50,&H00FCF7F8,&H000000FF,&H00370819,&HAA25030F,-1,0,0,0,100,100,0,0,1,2.9,1.5,8,120,120,42,1
+Style: ed kara,Wickenden Cafe NDP,37,&H00C08FF0,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0.5,0,1,3,0,7,30,30,30,1
+Style: ed trans,Wickenden Cafe NDP,37,&H00C08FF0,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0.5,0,1,3,0,1,30,30,30,1
+Style: opEng,Bountiful,45,&H00FBF3FF,&H000000FF,&H005916AE,&H00000000,0,0,0,0,100,100,0,0,1,1.7,0,2,40,40,25,1
+Style: opRb,Bountiful,45,&H00FBF3FF,&H000000FF,&H00E98FF4,&H00000000,0,0,0,0,100,100,0,0,1,1.7,0,8,40,40,25,1
+Style: opEb,Bountiful,45,&H00FBF3FF,&H000000FF,&H00E98FF4,&H00000000,0,0,0,0,100,100,0,0,1,1.7,0,2,40,40,25,1
+Style: opRomaji,Bountiful,45,&H00FBF3FF,&H000000FF,&H005916AE,&H00000000,0,0,0,0,100,100,0,0,1,1.7,0,8,40,40,25,1
+Style: Sign #1,DFPHSMaru-W4-CP,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Sign #2,S2G Moon,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Sign #3,Uzura,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1191,520)\c&HFCFFF2&\fs16\blur0.6}Menu
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1191,552)\c&HFCFFF2&\fs16\blur0.6}Log
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1191,589)\c&HFCFFF2&\fs16\blur0.6}Save
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1191,625)\c&HFCFFF2&\fs16\blur0.6}Load
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1130,680)\c&HFCFFF2&\fs16\blur0.6}Options
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1193,522)\c&H0E4309&\fs16\blur0.6}Menu
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1193,554)\c&H0E4309&\fs16\blur0.6}Log
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1193,591)\c&H0E4309&\fs16\blur0.6}Save
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1193,627)\c&H0E4309&\fs16\blur0.6}Load
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(1132,682)\c&H0E4309&\fs16\blur0.6}Options
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(322,630)\c&HFCFFF2&\fs30\blur0.6\iclip(m 547 644 l 578 643 564 669)}Can I... stay here tonight...?
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\c&H0E4309&\fs30\blur0.6\iclip(m 547 644 l 578 643 564 669)\pos(322.667,634)}Can I... stay here tonight...?
+Dialogue: 1,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(152,500)\c&HFCFFF2&\fs30\blur0.6}Mori Mami:  I missed... the last train...
+Dialogue: 0,0:00:00.00,0:00:06.94,Sign #1,,0,0,0,,{\an4\pos(154,502)\c&H0E4309&\fs30\blur0.6}Mori Mami:  I missed... the last train...
+Dialogue: 9,0:00:01.13,0:00:03.60,Default,,0,0,18,,I missed the last train.
+Dialogue: 9,0:00:04.49,0:00:06.94,Default,,0,0,18,,Can I stay here tonight?
+Dialogue: 9,0:00:06.94,0:00:09.10,Default,,0,0,0,,Ooh, this is it!
+Dialogue: 9,0:00:09.10,0:00:10.95,Default,,0,0,0,,It turned into a sleepover!
+Dialogue: 9,0:00:10.95,0:00:13.46,Default,,0,0,0,,I see how it works now!
+Dialogue: 9,0:00:13.46,0:00:17.26,Default,,0,0,0,,Oh, there were other situations that could be useful for the Harem Plan.
+Dialogue: 9,0:00:17.26,0:00:19.08,Default,,0,0,0,,Gotta write them down!
+Dialogue: 9,0:00:19.93,0:00:21.75,Default,,0,0,0,,Momo Velia Deviluke...
+Dialogue: 9,0:00:22.41,0:00:24.96,Default,,0,0,0,,The third princess of Deviluke
+Dialogue: 9,0:00:24.96,0:00:28.78,Default,,0,0,0,,and a member of Class 1-B at our school, Sainan High.
+Dialogue: 9,0:00:28.78,0:00:32.12,Default,,0,0,0,,She's 151 centimeters tall, with bust, waist, and hip measurements
+Dialogue: 9,0:00:32.12,0:00:34.12,Default,,0,0,0,,estimated to be 80, 54, and 79, respectively.
+Dialogue: 9,0:00:34.75,0:00:35.66,Default,,0,0,0,,Gentlemen!
+Dialogue: 9,0:00:35.66,0:00:41.14,Default,,0,0,0,,We are all comrades who fell for this beautiful, innocent girl.
+Dialogue: 9,0:00:41.57,0:00:47.30,Default,,0,0,0,,However, no one would benefit from us fighting amongst ourselves for Momo-san's love,
+Dialogue: 9,0:00:47.30,0:00:50.98,Default,,0,0,0,,which might even break her tender, caring heart.
+Dialogue: 9,0:00:51.51,0:00:57.45,Default,,0,0,0,,Hence, we hereby form an assembly of gentlemen who love Momo-san equally.
+Dialogue: 9,0:00:58.07,0:00:59.66,Default,,0,0,0,,Venus Momo Club.
+Dialogue: 9,0:00:59.66,0:01:03.16,Default,,0,0,0,,VMC! VMC! VMC!
+Dialogue: 1,0:01:03.16,0:01:06.37,Sign #1,,0,0,0,,{\an4\pos(84,604)\c&HFCFFF2&\fs36\blur0.6}Mori Mami:  Please... come to me...
+Dialogue: 0,0:01:03.16,0:01:06.37,Sign #1,,0,0,0,,{\an4\pos(87,607)\c&H0E4309&\fs36\blur0.6}Mori Mami:  Please... come to me...
+Dialogue: 9,0:01:03.79,0:01:04.68,Default,,0,0,0,,All right!
+Dialogue: 9,0:01:04.68,0:01:06.37,Default,,0,0,0,,I'm just about done conquering this character!
+Dialogue: 9,0:01:06.93,0:01:08.88,Default,,0,0,0,,I'll save here and call it a day.
+Dialogue: 9,0:01:10.75,0:01:15.88,Default,,0,0,0,,{\i1}Maybe my relationship with Rito-san can progress this smoothly too.
+Dialogue: 9,0:01:16.97,0:01:19.89,Default,,0,0,0,,{\i1}After all, Rito-san...
+Dialogue: 9,0:01:20.97,0:01:22.42,Default,,0,0,0,,{\i1}What are you doing, Momo?
+Dialogue: 9,0:01:22.42,0:01:23.62,Default,,0,0,0,,{\i1}Homework?
+Dialogue: 9,0:01:23.62,0:01:25.36,Default,,0,0,0,,{\i1}Oh, Rito-san!
+Dialogue: 9,0:01:25.36,0:01:30.08,Default,,0,0,0,,{\i1}I'm looking for portable plant seeds that I can use for self-protection.
+Dialogue: 9,0:01:30.08,0:01:31.11,Default,,0,0,0,,{\i1}Oh?
+Dialogue: 9,0:01:31.11,0:01:33.12,Default,,0,0,0,,{\i1}You're pretty amazing, Momo.
+Dialogue: 9,0:01:33.12,0:01:33.74,Default,,0,0,0,,{\i1}Huh?
+Dialogue: 9,0:01:34.25,0:01:38.78,Default,,0,0,0,,{\i1}I mean, you're always saving \NMikan or me when we're in trouble.
+Dialogue: 9,0:01:38.78,0:01:40.96,Default,,0,0,0,,{\i1}I'm just stunned by how dependable you are.
+Dialogue: 9,0:01:40.96,0:01:42.20,Default,,0,0,0,,{\i1}I'm flattered.
+Dialogue: 9,0:01:42.61,0:01:48.52,Default,,0,0,0,,{\i1}And you're studying like this so you can be prepared in case of an emergency, right?
+Dialogue: 9,0:01:48.52,0:01:50.46,Default,,0,0,0,,{\i1}I can tell that you're very committed.
+Dialogue: 9,0:01:51.17,0:01:55.72,Default,,0,0,0,,{\i1}But I want you to let me know\N if I can help in any way.
+Dialogue: 9,0:01:56.17,0:01:59.84,Default,,0,0,0,,{\i1}I might not be able to do much, \Nbeing an Earthling and all,
+Dialogue: 9,0:01:59.84,0:02:03.06,Default,,0,0,0,,{\i1}but I don't want to put all the burden on you.
+Dialogue: 9,0:02:05.43,0:02:07.58,Default,,0,0,0,,{\i1}I appreciate you always being there for me, Momo.
+Dialogue: 9,0:02:10.01,0:02:12.96,Default,,0,0,0,,{\i1}R-Rito-san, not here...
+Dialogue: 9,0:02:13.83,0:02:15.19,Default,,0,0,0,,{\i1}So you want me to stop, Momo?
+Dialogue: 9,0:02:15.19,0:02:17.74,Default,,0,0,0,,{\i1}W-Well, I didn't say that, but...
+Dialogue: 9,0:02:18.45,0:02:21.32,Default,,0,0,0,,{\i1}Mikan-san is in the next room.
+Dialogue: 9,0:02:21.32,0:02:22.91,Default,,0,0,0,,{\i1}Onee-sama and Nana are around too.
+Dialogue: 9,0:02:22.91,0:02:24.04,Default,,0,0,0,,{\i1}What's your point?
+Dialogue: 9,0:02:46.45,0:02:48.08,Default,,0,0,0,,{\i1}What...
+Dialogue: 9,0:02:48.08,0:02:50.38,Default,,0,0,0,,{\i1}made me this way?
+Dialogue: 9,0:02:51.45,0:02:56.10,Default,,0,0,0,,{\i1}He completely stole my heart,\Nand now I can't live without him.
+Dialogue: 9,0:02:58.31,0:02:59.64,Default,,0,0,0,,{\i1}Rito-san...
+Dialogue: 9,0:03:02.23,0:03:03.68,Default,,0,0,0,,{\i1}You're a sinful man.
+Dialogue: 9,0:03:07.55,0:03:08.45,Default,,0,0,0,,Momo!
+Dialogue: 0,0:03:08.45,0:03:11.37,Sign #2,,0,0,0,,{\pos(754,504)\c&H6C5553&\fs24\blur0.3\fax-0.02}Math
+Dialogue: 9,0:03:08.79,0:03:10.70,Default,,0,0,0,,Lemme copy your homework!
+Dialogue: 9,0:03:10.70,0:03:11.37,Default,,0,0,0,,Huh?
+Dialogue: 9,0:03:11.83,0:03:12.62,Default,,0,0,0,,What's wrong?
+Dialogue: 9,0:03:12.62,0:03:14.13,Default,,0,0,0,,You feeling sick or something?
+Dialogue: 9,0:03:14.77,0:03:16.13,Default,,0,0,0,,Nana...
+Dialogue: 9,0:03:17.13,0:03:21.90,Default,,0,0,0,,How many times must I tell you {\i1}not{\i0} to enter my room without permission?!
+Dialogue: 0,0:03:31.69,0:03:34.44,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Please believe in me
+Dialogue: 1,0:03:31.69,0:03:34.44,opEng,,0,0,0,,{\fad(150,150)}Please believe in me
+Dialogue: 0,0:03:31.69,0:03:34.44,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}shinjite ne watashi wo
+Dialogue: 1,0:03:31.69,0:03:34.44,opRomaji,,0,0,0,,{\fad(150,150)}shinjite ne watashi wo
+Dialogue: 0,0:03:34.44,0:03:39.78,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Because I'll lead you to paradise
+Dialogue: 1,0:03:34.44,0:03:39.78,opEng,,0,0,0,,{\fad(150,150)}Because I'll lead you to paradise
+Dialogue: 0,0:03:34.44,0:03:39.78,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}ima kimi ni ageru yo paradise
+Dialogue: 1,0:03:34.44,0:03:39.78,opRomaji,,0,0,0,,{\fad(150,150)}ima kimi ni ageru yo paradise
+Dialogue: 0,0:03:40.03,0:03:43.32,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Jump into the garden of love
+Dialogue: 1,0:03:40.03,0:03:43.32,opEng,,0,0,0,,{\fad(150,150)}Jump into the garden of love
+Dialogue: 0,0:03:40.03,0:03:43.32,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}tobikonde ai no sono he
+Dialogue: 1,0:03:40.03,0:03:43.32,opRomaji,,0,0,0,,{\fad(150,150)}tobikonde ai no sono he
+Dialogue: 0,0:03:44.11,0:03:49.45,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Let's dream the best of dreams together
+Dialogue: 1,0:03:44.11,0:03:49.45,opEng,,0,0,0,,{\fad(150,150)}Let's dream the best of dreams together
+Dialogue: 0,0:03:44.11,0:03:49.45,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}saikou no yume wo issho ni mimasho
+Dialogue: 1,0:03:44.11,0:03:49.45,opRomaji,,0,0,0,,{\fad(150,150)}saikou no yume wo issho ni mimasho
+Dialogue: 0,0:03:51.62,0:03:53.76,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}My love, this impulse, can't be stopped
+Dialogue: 1,0:03:51.62,0:03:53.76,opEng,,0,0,0,,{\fad(150,150)}My love, this impulse, can't be stopped
+Dialogue: 0,0:03:51.62,0:03:53.76,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}tomaranai shoudou aijou
+Dialogue: 1,0:03:51.62,0:03:53.76,opRomaji,,0,0,0,,{\fad(150,150)}tomaranai shoudou aijou
+Dialogue: 0,0:03:53.76,0:03:56.09,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}You know I'm being serious here
+Dialogue: 1,0:03:53.76,0:03:56.09,opEng,,0,0,0,,{\fad(150,150)}You know I'm being serious here
+Dialogue: 0,0:03:53.76,0:03:56.09,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}you know honki de iku yo
+Dialogue: 1,0:03:53.76,0:03:56.09,opRomaji,,0,0,0,,{\fad(150,150)}you know honki de iku yo
+Dialogue: 0,0:03:56.09,0:03:59.76,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Let's set this great project into motion
+Dialogue: 1,0:03:56.09,0:03:59.76,opEng,,0,0,0,,{\fad(150,150)}Let's set this great project into motion
+Dialogue: 0,0:03:56.09,0:03:59.76,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}sokkou go on juuyou just project
+Dialogue: 1,0:03:56.09,0:03:59.76,opRomaji,,0,0,0,,{\fad(150,150)}sokkou go on juuyou just project
+Dialogue: 0,0:03:59.76,0:04:03.31,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}It doesn't matter how, just make it work
+Dialogue: 1,0:03:59.76,0:04:03.31,opEng,,0,0,0,,{\fad(150,150)}It doesn't matter how, just make it work
+Dialogue: 0,0:03:59.76,0:04:03.31,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}houhou junjo honto dou de mo ii no
+Dialogue: 1,0:03:59.76,0:04:03.31,opRomaji,,0,0,0,,{\fad(150,150)}houhou junjo honto dou de mo ii no
+Dialogue: 0,0:04:03.31,0:04:05.77,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Instincts cause the trouble
+Dialogue: 1,0:04:03.31,0:04:05.77,opEng,,0,0,0,,{\fad(150,150)}Instincts cause the trouble
+Dialogue: 0,0:04:03.31,0:04:05.77,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}honnou de torabu tte
+Dialogue: 1,0:04:03.31,0:04:05.77,opRomaji,,0,0,0,,{\fad(150,150)}honnou de torabu tte
+Dialogue: 0,0:04:05.77,0:04:10.23,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}It's alright even if I can't be your only one
+Dialogue: 1,0:04:05.77,0:04:10.23,opEng,,0,0,0,,{\fad(150,150)}It's alright even if I can't be your only one
+Dialogue: 0,0:04:05.77,0:04:10.23,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}ne kimi no only one ja naku tatte it's all right
+Dialogue: 1,0:04:05.77,0:04:10.23,opRomaji,,0,0,0,,{\fad(150,150)}ne kimi no only one ja naku tatte it's all right
+Dialogue: 0,0:04:10.23,0:04:12.78,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Let's all be happy together
+Dialogue: 1,0:04:10.23,0:04:12.78,opEng,,0,0,0,,{\fad(150,150)}Let's all be happy together
+Dialogue: 0,0:04:10.23,0:04:12.78,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}minna de happy ni narou yo
+Dialogue: 1,0:04:10.23,0:04:12.78,opRomaji,,0,0,0,,{\fad(150,150)}minna de happy ni narou yo
+Dialogue: 0,0:04:12.78,0:04:16.86,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Our love will bloom into
+Dialogue: 1,0:04:12.78,0:04:16.86,opEng,,0,0,0,,{\fad(150,150)}Our love will bloom into
+Dialogue: 0,0:04:12.78,0:04:16.86,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}uketomete kureru kono koi wa
+Dialogue: 1,0:04:12.78,0:04:16.86,opRomaji,,0,0,0,,{\fad(150,150)}uketomete kureru kono koi wa
+Dialogue: 0,0:04:16.86,0:04:20.41,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}The greatest scandal in the galaxy
+Dialogue: 1,0:04:16.86,0:04:20.41,opEng,,0,0,0,,{\fad(150,150)}The greatest scandal in the galaxy
+Dialogue: 0,0:04:16.86,0:04:20.41,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}ginga no saikyou no scandal
+Dialogue: 1,0:04:16.86,0:04:20.41,opRomaji,,0,0,0,,{\fad(150,150)}ginga no saikyou no scandal
+Dialogue: 0,0:04:21.40,0:04:25.58,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}There's just one target and that's you
+Dialogue: 1,0:04:21.40,0:04:25.58,opEng,,0,0,0,,{\fad(150,150)}There's just one target and that's you
+Dialogue: 0,0:04:21.40,0:04:25.58,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}tatta hitori no target sore wa sou kimi desu
+Dialogue: 1,0:04:21.40,0:04:25.58,opRomaji,,0,0,0,,{\fad(150,150)}tatta hitori no target sore wa sou kimi desu
+Dialogue: 0,0:04:25.58,0:04:29.96,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Laugh by my side like that forever
+Dialogue: 1,0:04:25.58,0:04:29.96,opEng,,0,0,0,,{\fad(150,150)}Laugh by my side like that forever
+Dialogue: 0,0:04:25.58,0:04:29.96,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}soba de eien ni sou yatte waratteite
+Dialogue: 1,0:04:25.58,0:04:29.96,opRomaji,,0,0,0,,{\fad(150,150)}soba de eien ni sou yatte waratteite
+Dialogue: 0,0:04:30.38,0:04:32.92,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Please believe in me
+Dialogue: 1,0:04:30.38,0:04:32.92,opEng,,0,0,0,,{\fad(150,150)}Please believe in me
+Dialogue: 0,0:04:30.38,0:04:32.92,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}shinjite ne watashi wo
+Dialogue: 1,0:04:30.38,0:04:32.92,opRomaji,,0,0,0,,{\fad(150,150)}shinjite ne watashi wo
+Dialogue: 0,0:04:33.13,0:04:38.47,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Because I'll lead you to paradise
+Dialogue: 1,0:04:33.13,0:04:38.47,opEng,,0,0,0,,{\fad(150,150)}Because I'll lead you to paradise
+Dialogue: 0,0:04:33.13,0:04:38.47,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}ima kimi ni ageru yo paradise
+Dialogue: 1,0:04:33.13,0:04:38.47,opRomaji,,0,0,0,,{\fad(150,150)}ima kimi ni ageru yo paradise
+Dialogue: 0,0:04:38.68,0:04:41.68,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Jump into the garden of love
+Dialogue: 1,0:04:38.68,0:04:41.68,opEng,,0,0,0,,{\fad(150,150)}Jump into the garden of love
+Dialogue: 0,0:04:38.68,0:04:41.68,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}tobikonde ai no sono he
+Dialogue: 1,0:04:38.68,0:04:41.68,opRomaji,,0,0,0,,{\fad(150,150)}tobikonde ai no sono he
+Dialogue: 0,0:04:42.81,0:04:48.02,opEb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}Let's dream the best of dreams together
+Dialogue: 1,0:04:42.81,0:04:48.02,opEng,,0,0,0,,{\fad(150,150)}Let's dream the best of dreams together
+Dialogue: 0,0:04:42.81,0:04:48.02,opRb,,0,0,0,,{\fad(150,150)}{\org(0,0)\blur5\bord2}saikou no yume wo issho ni mimasho
+Dialogue: 1,0:04:42.81,0:04:48.02,opRomaji,,0,0,0,,{\fad(150,150)}saikou no yume wo issho ni mimasho
+Dialogue: 9,0:04:55.52,0:04:59.54,Default,,0,0,0,,{\i1}Rito-san has been watching me!
+Dialogue: 9,0:05:01.27,0:05:03.74,Top,,0,0,0,,{\i1}Oh, no. I need to pull myself together.
+Dialogue: 9,0:05:03.74,0:05:06.99,Top,,0,0,0,,{\i1}I'm so happy that I can't stop grinning!
+Dialogue: 9,0:05:07.49,0:05:09.16,Top,,0,0,0,,Momo-chan, what are those for?
+Dialogue: 9,0:05:09.16,0:05:10.84,Top,,0,0,0,,Those flowers are beautiful.
+Dialogue: 9,0:05:11.97,0:05:13.42,Top,,0,0,0,,Oh, these?
+Dialogue: 9,0:05:13.42,0:05:16.72,Top,,0,0,0,,These are rainbow-colored roses. They're a rarity even in space!
+Dialogue: 9,0:05:16.72,0:05:19.92,Top,,0,0,0,,I thought they'd help brighten up the classroom.
+Dialogue: 9,0:05:19.92,0:05:20.76,Top,,0,0,0,,Really?
+Dialogue: 9,0:05:20.76,0:05:22.44,Top,,0,0,0,,Wow!
+Dialogue: 9,0:05:22.44,0:05:24.86,Top,,0,0,0,,That's a princess for you.
+Dialogue: 9,0:05:24.86,0:05:28.04,Top,,0,0,0,,Being considerate is important, Momo-kun.
+Dialogue: 9,0:05:28.04,0:05:29.88,Top,,0,0,0,,Sensei, I'm flattered.
+Dialogue: 9,0:05:29.88,0:05:31.32,Default,,0,0,0,,But it's no big deal.
+Dialogue: 9,0:05:31.32,0:05:33.58,Default,,0,0,0,,Momo-chan's so popular!
+Dialogue: 9,0:05:33.58,0:05:36.81,Default,,0,0,0,,It's all an act. She's just pretending to be a goody two-shoes.
+Dialogue: 9,0:05:38.13,0:05:39.02,Default,,0,0,0,,Momo-san!
+Dialogue: 9,0:05:39.49,0:05:43.24,Default,,0,0,0,,We recently formed a fan club in your honor.
+Dialogue: 9,0:05:43.24,0:05:45.82,Default,,0,0,0,,We call it the Venus Momo Club!
+Dialogue: 9,0:05:45.82,0:05:46.76,Default,,0,0,0,,Or for short...
+Dialogue: 9,0:05:46.76,0:05:47.91,Default,,0,0,0,,VMC!
+Dialogue: 9,0:05:47.91,0:05:48.96,Default,,0,0,0,,Huh?
+Dialogue: 9,0:05:48.96,0:05:52.02,Default,,0,0,0,,Let us know if we can be of any service!
+Dialogue: 9,0:05:52.02,0:05:55.76,Default,,0,0,0,,We're even willing to sacrifice our lives for you!
+Dialogue: 9,0:05:55.76,0:05:56.62,Default,,0,0,0,,U-Um...
+Dialogue: 9,0:05:56.62,0:05:58.84,Default,,0,0,0,,We're here to serve you!
+Dialogue: 9,0:05:58.84,0:05:59.63,Default,,0,0,0,,Huh?
+Dialogue: 9,0:06:00.07,0:06:02.54,Default,,0,0,0,,Wow, a fan club?
+Dialogue: 9,0:06:02.54,0:06:04.70,Default,,0,0,0,,And the leader is Nakajima-kun!
+Dialogue: 9,0:06:04.70,0:06:06.80,Default,,0,0,0,,Second-year Kusao-senpai is in it too!
+Dialogue: 9,0:06:07.31,0:06:11.14,Default,,0,0,0,,I appreciate your feelings, but...
+Dialogue: 9,0:06:11.79,0:06:16.58,Default,,0,0,0,,you need to cherish the bodies you were born with.
+Dialogue: 9,0:06:16.58,0:06:19.06,Default,,0,0,0,,Please don't overexert yourselves.
+Dialogue: 9,0:06:20.56,0:06:22.42,Default,,0,0,0,,Momo-san is so kind!
+Dialogue: 9,0:06:22.98,0:06:23.90,Default,,0,0,0,,Nana-chan!
+Dialogue: 9,0:06:24.57,0:06:27.11,Default,,0,0,0,,We're on your side!
+Dialogue: 9,0:06:27.11,0:06:27.82,Default,,0,0,0,,What?
+Dialogue: 9,0:06:27.82,0:06:28.95,Default,,0,0,0,,After all, we love...
+Dialogue: 9,0:06:29.47,0:06:30.03,Default,,0,0,0,,flat ch—
+Dialogue: 9,0:06:30.03,0:06:32.74,Default,,0,0,0,,Well, excuse me for being flat-chested!
+Dialogue: 9,0:06:34.09,0:06:36.18,Default,,0,0,0,,{\i1}VMC...
+Dialogue: 9,0:06:36.69,0:06:39.04,Default,,0,0,0,,{\i1}I don't think I'll mind having a fan club.
+Dialogue: 9,0:06:39.51,0:06:43.22,Default,,0,0,0,,{\i1}But I'll be focusing on \NRito-san for the rest of the day.
+Dialogue: 9,0:06:43.22,0:06:44.16,Default,,0,0,0,,{\i1}Oh, right.
+Dialogue: 9,0:06:44.16,0:06:48.55,Default,,0,0,0,,{\i1}Rito-san said he's going shopping to buy something his dad asked for.
+Dialogue: 9,0:06:49.05,0:06:51.06,Default,,0,0,0,,{\i1}I should go with him on the way home.
+Dialogue: 9,0:06:55.21,0:06:56.52,Default,,0,0,0,,Momo-san!
+Dialogue: 9,0:06:56.52,0:06:58.02,Default,,0,0,0,,We'll carry that for you!
+Dialogue: 9,0:06:58.02,0:07:00.56,Default,,0,0,0,,Oh, but I'm responsible for that today.
+Dialogue: 9,0:07:01.23,0:07:02.18,Default,,0,0,0,,There are stairs ahead!
+Dialogue: 9,0:07:02.18,0:07:03.35,Default,,0,0,0,,Please be careful!
+Dialogue: 9,0:07:03.35,0:07:04.65,Default,,0,0,0,,Th-Thank you.
+Dialogue: 9,0:07:04.65,0:07:06.62,Default,,0,0,0,,We polished your desk!
+Dialogue: 9,0:07:07.28,0:07:09.15,Default,,0,0,0,,We'll open and close the door for you!
+Dialogue: 9,0:07:13.69,0:07:18.21,Default,,0,0,0,,Boys who wish to speak with Momo-san will require our permission!
+Dialogue: 9,0:07:18.21,0:07:20.08,Default,,0,0,0,,{\i1}Wow...
+Dialogue: 9,0:07:20.08,0:07:23.35,Default,,0,0,0,,{\i1}This is actually pretty annoying.
+Dialogue: 9,0:07:23.35,0:07:27.69,Default,,0,0,0,,{\i1}I liked the idea of having \Nmy very own fan club,
+Dialogue: 9,0:07:27.69,0:07:30.58,Default,,0,0,0,,{\i1}but it's impossible for me \Nto go meet Rito-san this way.
+Dialogue: 9,0:07:32.39,0:07:33.72,Default,,0,0,0,,{\i1}Oh, it's Rito-san!
+Dialogue: 9,0:07:39.73,0:07:43.02,Default,,0,0,0,,It's been so long since we had \Nan outing with just the two of us.
+Dialogue: 9,0:07:43.02,0:07:44.90,Default,,0,0,0,,An outing?
+Dialogue: 9,0:07:44.90,0:07:47.18,Default,,0,0,0,,We're just taking a detour \Non the way back from school.
+Dialogue: 9,0:07:47.18,0:07:49.20,Default,,0,0,0,,Plus, it's just to help out my dad.
+Dialogue: 9,0:07:53.87,0:07:55.02,Default,,0,0,0,,That's all right!
+Dialogue: 9,0:07:55.02,0:07:57.28,Default,,0,0,0,,I'll have fun so long as I can be with you!
+Dialogue: 9,0:08:11.95,0:08:13.32,Default,,0,0,0,,Excellent!
+Dialogue: 9,0:08:13.32,0:08:15.89,Default,,0,0,0,,I'm sure Rito-san will love it!
+Dialogue: 9,0:08:16.35,0:08:19.47,Default,,0,0,0,,Oh, Rito and Lala-san aren't coming back tonight.
+Dialogue: 9,0:08:19.47,0:08:20.68,Default,,0,0,0,,What?
+Dialogue: 9,0:08:20.68,0:08:23.68,Default,,0,0,0,,Dad has a bunch of deadlines to meet,
+Dialogue: 9,0:08:24.19,0:08:26.82,Default,,0,0,0,,so they'll be staying there for a while to help.
+Dialogue: 9,0:08:26.82,0:08:27.48,Default,,0,0,0,,What?!
+Dialogue: 9,0:08:29.31,0:08:31.99,Default,,0,0,0,,The miso soup looks delicious!
+Dialogue: 1,0:08:31.99,0:08:34.57,Sign #1,,0,0,0,,{\an4\pos(84,604)\c&HFCFFF2&\fs36\blur0.6}Mori Mami:  Please... come to me...
+Dialogue: 0,0:08:31.99,0:08:34.57,Sign #1,,0,0,0,,{\an4\pos(87,607)\c&H0E4309&\fs36\blur0.6}Mori Mami:  Please... come to me...
+Dialogue: 9,0:08:42.91,0:08:44.28,Default,,0,0,0,,Rito-san...
+Dialogue: 9,0:08:48.84,0:08:51.94,Default,,0,0,0,,A-Are you okay, Yuuki-kun?
+Dialogue: 9,0:08:53.33,0:08:56.46,Default,,0,0,0,,Yep, these are still the perfect size!
+Dialogue: 9,0:08:56.46,0:08:58.44,Default,,0,0,0,,C-Cut it out, Risa!
+Dialogue: 9,0:08:58.44,0:09:00.30,Default,,0,0,0,,You were asking for it \Nwhen you started spacing out.
+Dialogue: 9,0:09:00.30,0:09:03.43,Default,,0,0,0,,You need to be more alert, Haruna.
+Dialogue: 9,0:09:12.31,0:09:13.02,Default,,0,0,0,,Sairenji?!
+Dialogue: 9,0:09:13.02,0:09:13.65,Default,,0,0,0,,Come on, Risa!
+Dialogue: 9,0:09:14.13,0:09:15.56,Default,,0,0,0,,The plan was a success!
+Dialogue: 9,0:09:15.56,0:09:16.77,Default,,0,0,0,,Rito!
+Dialogue: 9,0:09:16.77,0:09:18.44,Default,,0,0,0,,I'm here now!
+Dialogue: 9,0:09:18.44,0:09:19.45,Default,,0,0,0,,You two know better than that!
+Dialogue: 9,0:09:19.45,0:09:21.33,Default,,0,0,0,,Illicit relationships are prohibited!
+Dialogue: 9,0:09:21.69,0:09:24.16,Default,,0,0,0,,Lala, where were you?
+Dialogue: 9,0:09:25.27,0:09:27.88,Default,,0,0,0,,I was busy making this,\Nto give you a boost!
+Dialogue: 9,0:09:28.25,0:09:30.50,Default,,0,0,0,,I'm sure you'll be wide awake after eating some!
+Dialogue: 9,0:09:30.50,0:09:33.51,Default,,0,0,0,,Y-Yeah, I bet.
+Dialogue: 9,0:09:42.95,0:09:44.90,Default,,0,0,0,,Oh, that's bold!
+Dialogue: 9,0:10:25.73,0:10:27.06,Default,,0,0,0,,I'm so sorry!
+Dialogue: 9,0:10:27.06,0:10:28.16,Default,,0,0,0,,Are you okay?
+Dialogue: 9,0:10:39.23,0:10:40.48,Default,,0,0,0,,Yuuki Rito.
+Dialogue: 9,0:10:41.21,0:10:43.50,Default,,0,0,0,,Yami, that thing earlier wasn't on purp—
+Dialogue: 9,0:10:43.50,0:10:45.50,Default,,0,0,0,,These snacks are for you.
+Dialogue: 9,0:10:45.50,0:10:47.48,Default,,0,0,0,,Th-Thanks.
+Dialogue: 9,0:10:47.48,0:10:48.99,Default,,0,0,0,,But what's the occasion?
+Dialogue: 9,0:10:48.99,0:10:51.55,Default,,0,0,0,,Mikan was worried about you.
+Dialogue: 9,0:10:51.55,0:10:52.66,Default,,0,0,0,,Oh...
+Dialogue: 9,0:10:52.66,0:10:54.00,Default,,0,0,0,,Rito-kun!
+Dialogue: 9,0:10:54.45,0:10:56.82,Default,,0,0,0,,I'm free after school today!
+Dialogue: 9,0:10:56.82,0:10:58.68,Default,,0,0,0,,Spend some time with me!
+Dialogue: 9,0:10:58.68,0:11:01.50,Default,,0,0,0,,Sorry, I have plans.
+Dialogue: 9,0:11:01.50,0:11:03.35,Default,,0,0,0,,What? You do?
+Dialogue: 9,0:11:03.35,0:11:06.94,Default,,0,0,0,,Are you still helping your dad with his work?
+Dialogue: 9,0:11:06.94,0:11:09.36,Default,,0,0,0,,Yeah, today's the last day.
+Dialogue: 9,0:11:09.36,0:11:11.62,Default,,0,0,0,,Rito, thanks for waiting!
+Dialogue: 9,0:11:11.62,0:11:13.04,Default,,0,0,0,,All right, let's get going.
+Dialogue: 9,0:11:13.04,0:11:14.72,Default,,0,0,0,,I'm not in any rush, though.
+Dialogue: 9,0:11:14.72,0:11:16.28,Default,,0,0,0,,Hang in there.
+Dialogue: 9,0:11:19.17,0:11:21.90,Default,,0,0,0,,{\i1}Why am I so frustrated?
+Dialogue: 9,0:11:22.99,0:11:25.26,Default,,0,0,0,,{\i1}I've only been away from him for a little while.
+Dialogue: 9,0:11:27.31,0:11:29.22,Default,,0,0,0,,{\i1}I want to see Rito-san.
+Dialogue: 9,0:11:29.22,0:11:31.50,Default,,0,0,0,,{\i1}I want to talk to him.
+Dialogue: 9,0:11:31.50,0:11:33.25,Default,,0,0,0,,{\i1}I want Rito-san to...
+Dialogue: 9,0:11:37.23,0:11:39.01,Default,,0,0,0,,{\i1}I should have a chance.
+Dialogue: 9,0:11:42.09,0:11:43.34,Default,,0,0,0,,{\i1}Tomorrow will be the day!
+Dialogue: 9,0:11:53.65,0:11:55.22,Default,,0,0,0,,All right!
+Dialogue: 9,0:11:55.22,0:11:56.69,Default,,0,0,0,,You did it, Nana-chan!
+Dialogue: 9,0:11:59.79,0:12:02.78,Default,,0,0,0,,Momo-san is currently changing clothes in the locker room.
+Dialogue: 9,0:12:02.78,0:12:03.98,Default,,0,0,0,,Stay on standby here.
+Dialogue: 9,0:12:03.98,0:12:05.03,Default,,0,0,0,,Roger!
+Dialogue: 9,0:12:05.93,0:12:07.22,Default,,0,0,0,,Changing clothes?!
+Dialogue: 9,0:12:07.22,0:12:08.88,Default,,0,0,0,,Momo-san's getting changed...
+Dialogue: 9,0:12:08.88,0:12:10.44,Default,,0,0,0,,...right over there, at this very moment.
+Dialogue: 9,0:12:10.44,0:12:12.50,Default,,0,0,0,,She's getting changed!
+Dialogue: 9,0:12:17.01,0:12:18.30,Default,,0,0,0,,Excuse me, Nakajima.
+Dialogue: 0,0:12:18.30,0:12:20.08,Top,,0,0,0,,Something's been worrying me.
+Dialogue: 0,0:12:20.08,0:12:21.12,Top,,0,0,0,,What is it, Sugimura?
+Dialogue: 0,0:12:21.12,0:12:22.50,Top,,0,0,0,,Yuuki Rito.
+Dialogue: 0,0:12:22.50,0:12:25.58,Top,,0,0,0,,He's Lala-senpai's potential fiancé, isn't he?
+Dialogue: 0,0:12:25.58,0:12:27.90,Top,,0,0,0,,I don't think he's someone we need to worry about.
+Dialogue: 0,0:12:27.90,0:12:31.27,Top,,0,0,0,,Still, this discipline committee member's report has me concerned.
+Dialogue: 0,0:12:32.05,0:12:36.28,Top,,0,0,0,,Yuuki Rito is a man who knows no shame. He's on par with the principal.
+Dialogue: 0,0:12:36.28,0:12:39.32,Top,,0,0,0,,He's been a topic of discussion many times in our meetings.
+Dialogue: 9,0:12:39.67,0:12:40.42,Default,,0,0,0,,What?!
+Dialogue: 9,0:12:40.42,0:12:41.58,Default,,0,0,0,,He's {\i1}that{\i0} shameless?!
+Dialogue: 9,0:12:41.58,0:12:42.44,Default,,0,0,0,,Then could it be that...
+Dialogue: 9,0:12:42.79,0:12:44.92,Default,,0,0,0,,the pure and innocent Momo-san is...
+Dialogue: 9,0:12:44.92,0:12:46.42,Default,,0,0,0,,{\i1}Momo!
+Dialogue: 9,0:12:46.42,0:12:48.30,Default,,0,0,0,,{\i1}Rito-san, is that...
+Dialogue: 9,0:12:49.93,0:12:54.72,Default,,0,0,0,,{\i1}Come! Eat this ice cream before it melts!
+Dialogue: 9,0:12:55.87,0:12:58.68,Default,,0,0,0,,{\i1}I'm your master!
+Dialogue: 9,0:13:03.11,0:13:06.09,Default,,0,0,0,,{\i1}Call me Master!
+Dialogue: 9,0:13:24.07,0:13:25.82,Default,,0,0,0,,{\i1}Master!
+Dialogue: 9,0:13:25.82,0:13:29.12,Default,,0,0,0,,{\i1}Have mercy!
+Dialogue: 9,0:13:29.12,0:13:31.44,Default,,0,0,0,,That despicable pervert!
+Dialogue: 9,0:13:31.44,0:13:32.76,Default,,0,0,0,,Calm down, Nakajima!
+Dialogue: 9,0:13:32.76,0:13:33.62,Default,,0,0,0,,{\i1}You're{\i0} the pervert here!
+Dialogue: 9,0:13:33.99,0:13:35.12,Default,,0,0,0,,We've got a problem, guys!
+Dialogue: 9,0:13:35.12,0:13:37.54,Default,,0,0,0,,The girls are done changing, \Nbut Momo-san's gone missing!
+Dialogue: 9,0:13:37.54,0:13:38.29,Default,,0,0,0,,What?!
+Dialogue: 9,0:13:42.91,0:13:44.18,Default,,0,0,0,,It's Momo.
+Dialogue: 9,0:13:55.49,0:13:57.72,Default,,0,0,0,,{\i1}She said it's important.
+Dialogue: 9,0:13:57.72,0:14:00.86,Default,,0,0,0,,{\i1}I wonder if she found out\N something new about Mea.
+Dialogue: 9,0:14:07.61,0:14:09.70,Default,,0,0,0,,Hey, Momo?
+Dialogue: 9,0:14:13.63,0:14:15.12,Default,,0,0,0,,Welcome!
+Dialogue: 9,0:14:15.12,0:14:16.25,Default,,0,0,0,,Momo?
+Dialogue: 9,0:14:16.25,0:14:19.04,Default,,0,0,0,,You sure took your time.
+Dialogue: 9,0:14:19.04,0:14:20.58,Default,,0,0,0,,Oh, sorry.
+Dialogue: 9,0:14:20.58,0:14:22.86,Default,,0,0,0,,So, you had something important to...
+Dialogue: 9,0:14:23.53,0:14:24.92,Default,,0,0,0,,Why are you in gym clothes?
+Dialogue: 9,0:14:29.31,0:14:31.04,Default,,0,0,0,,{\i1}Rito-san's face!
+Dialogue: 9,0:14:31.04,0:14:33.10,Default,,0,0,0,,{\i1}His voice! His scent!
+Dialogue: 9,0:14:33.10,0:14:34.97,Default,,0,0,0,,{\i1}I missed this feeling.
+Dialogue: 9,0:14:35.81,0:14:40.98,Default,,0,0,0,,{\i1}Why does seeing him \Nmake me feel so warm inside?
+Dialogue: 9,0:14:44.73,0:14:45.80,Default,,0,0,0,,Momo?
+Dialogue: 9,0:14:46.87,0:14:48.06,Default,,0,0,0,,Rito-san!
+Dialogue: 9,0:14:51.75,0:14:53.08,Default,,0,0,0,,Momo?
+Dialogue: 9,0:14:54.83,0:14:58.88,Default,,0,0,0,,{\i1}Right, I'm here to do more than just see him.
+Dialogue: 9,0:15:02.01,0:15:04.55,Default,,0,0,0,,It's about the Harem Plan.
+Dialogue: 9,0:15:04.55,0:15:06.96,Default,,0,0,0,,I wanted to talk to you about it in private.
+Dialogue: 9,0:15:07.47,0:15:10.72,Default,,0,0,0,,{\i1}So this isn't about Mea?
+Dialogue: 9,0:15:11.83,0:15:13.66,Default,,0,0,0,,How does it feel, Rito-san?
+Dialogue: 9,0:15:14.35,0:15:18.90,Default,,0,0,0,,You're lying on a mat in the gym\N equipment shed, alone with a girl.
+Dialogue: 9,0:15:19.55,0:15:24.48,Default,,0,0,0,,As the king of a harem, are you excited by this in any way?
+Dialogue: 9,0:15:24.79,0:15:27.78,Default,,0,0,0,,N-No, I'm not really...
+Dialogue: 9,0:15:30.19,0:15:32.72,Default,,0,0,0,,{\i1}Rito-san's heart is beating so fast.
+Dialogue: 9,0:15:40.15,0:15:41.80,Default,,0,0,0,,Are you telling me the truth?
+Dialogue: 9,0:15:44.99,0:15:46.96,Default,,0,0,0,,W-Wait!
+Dialogue: 9,0:15:49.91,0:15:51.48,Default,,0,0,0,,M-Momo...
+Dialogue: 9,0:15:51.48,0:15:54.00,Default,,0,0,0,,Are you sure?{muffled}
+Dialogue: 9,0:15:55.73,0:15:58.04,Default,,0,0,0,,{\i1}This is embarrassing!
+Dialogue: 9,0:15:58.04,0:16:02.88,Default,,0,0,0,,{\i1}It takes real courage to \Ntease Rito-san when he's awake.
+Dialogue: 9,0:16:02.88,0:16:04.94,Default,,0,0,0,,{\i1}But I need to keep going.
+Dialogue: 9,0:16:04.94,0:16:07.58,Default,,0,0,0,,{\i1}I'll render him unable to think rationally
+Dialogue: 9,0:16:07.58,0:16:09.03,Default,,0,0,0,,{\i1}and turn him into a pleasure seeker.
+Dialogue: 9,0:16:09.41,0:16:10.70,Default,,0,0,0,,Momo!
+Dialogue: 9,0:16:10.70,0:16:13.08,Default,,0,0,0,,Mo... M-Momo!
+Dialogue: 9,0:16:13.08,0:16:15.60,Default,,0,0,0,,Mo... Momo!
+Dialogue: 9,0:16:15.60,0:16:16.46,Default,,0,0,0,,Mo...
+Dialogue: 9,0:17:37.09,0:17:37.70,Default,,0,0,0,,{17:37}Rito-san!
+Dialogue: 9,0:17:45.01,0:17:46.96,Default,,0,0,0,,{\i1}I-It's all right.
+Dialogue: 9,0:17:46.96,0:17:48.60,Default,,0,0,0,,{\i1}I'm not scared.
+Dialogue: 9,0:17:48.60,0:17:52.46,Default,,0,0,0,,{\i1}I was always prepared for this when I tempted him.
+Dialogue: 9,0:17:56.43,0:17:57.54,Default,,0,0,0,,{\i1}This is bad.
+Dialogue: 9,0:17:57.54,0:17:59.97,Default,,0,0,0,,{\i1}I'm starting to feel strange.
+Dialogue: 9,0:17:59.97,0:18:02.42,Default,,0,0,0,,{\i1}I need to stop her.
+Dialogue: 9,0:18:20.15,0:18:20.66,Default,,0,0,0,,Huh?
+Dialogue: 9,0:18:21.31,0:18:22.78,Default,,0,0,0,,{\i1}N-No!
+Dialogue: 9,0:18:22.78,0:18:24.95,Default,,0,0,0,,{\i1}I shouldn't be afraid of Rito-san!
+Dialogue: 9,0:18:32.35,0:18:35.05,Default,,0,0,0,,{\i1}Have you finally got into the mood?
+Dialogue: 9,0:18:35.69,0:18:36.62,Default,,0,0,0,,Well...
+Dialogue: 9,0:18:37.43,0:18:38.30,Default,,0,0,0,,I'm...
+Dialogue: 9,0:18:51.19,0:18:54.48,Default,,0,0,0,,Rito-san, you should be \Nmore honest with your feelings.
+Dialogue: 9,0:18:57.25,0:18:58.26,Default,,0,0,0,,Momo!
+Dialogue: 9,0:19:01.67,0:19:03.08,Default,,0,0,0,,So...
+Dialogue: 9,0:19:03.08,0:19:04.58,Default,,0,0,0,,Momo-san!
+Dialogue: 9,0:19:05.45,0:19:06.54,Default,,0,0,0,,There she is! She's alive!
+Dialogue: 9,0:19:06.54,0:19:08.37,Default,,0,0,0,,Damn you, Yuuki Rito!
+Dialogue: 9,0:19:08.37,0:19:09.48,Default,,0,0,0,,What?
+Dialogue: 9,0:19:08.73,0:19:09.76,Alternative,,0,0,0,,You're going to pay for this!
+Dialogue: 9,0:19:09.76,0:19:10.76,Alternative,,0,0,0,,Prepare yourself!
+Dialogue: 9,0:19:10.76,0:19:13.88,Default,,0,0,0,,{\i1}How'd they get in? I had tied the doors with ivy!
+Dialogue: 9,0:19:16.09,0:19:17.09,Default,,0,0,0,,{\i1}Mea-san?
+Dialogue: 9,0:19:17.69,0:19:20.68,Default,,0,0,0,,Get away from Momo-san!
+Dialogue: 9,0:19:23.14,0:19:24.86,Default,,0,0,0,,Rito-san!
+Dialogue: 9,0:19:25.89,0:19:27.56,Default,,0,0,0,,You're safe now, Momo-san!
+Dialogue: 9,0:19:29.48,0:19:33.16,Default,,0,0,0,,We, the VMC, shall give this pervert an appropriate punishment!
+Dialogue: 9,0:19:33.16,0:19:36.48,Default,,0,0,0,,We'll give him a punishment so severe that \Nhe won't dare to do something like this again!
+Dialogue: 9,0:19:37.21,0:19:38.95,Default,,0,0,0,,Severe?
+Dialogue: 9,0:19:38.95,0:19:39.74,Default,,0,0,0,,What?
+Dialogue: 9,0:19:40.75,0:19:45.24,Default,,0,0,0,,I was only talking with Rito-san.
+Dialogue: 9,0:19:45.91,0:19:50.26,Default,,0,0,0,,Rito-san is not the kind of man you think he is.
+Dialogue: 9,0:19:51.49,0:19:52.50,Default,,0,0,0,,So...
+Dialogue: 9,0:19:56.05,0:19:58.68,Default,,0,0,0,,apologize to Rito-san.
+Dialogue: 9,0:19:59.73,0:20:01.01,Default,,0,0,0,,Right this second.
+Dialogue: 1,0:20:01.01,0:20:01.05,Sign #3,,0,0,0,,{\pos(166,108)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.01,0:20:01.05,Sign #3,,0,0,0,,{\pos(166,108)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.01,0:20:01.05,Sign #3,,0,0,0,,{\pos(166,108)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.01,0:20:01.05,Sign #3,,0,0,0,,{\pos(166,108)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.05,0:20:01.09,Sign #3,,0,0,0,,{\pos(165.99,108.39)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.05,0:20:01.09,Sign #3,,0,0,0,,{\pos(165.99,108.39)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.05,0:20:01.09,Sign #3,,0,0,0,,{\pos(165.99,108.39)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.05,0:20:01.09,Sign #3,,0,0,0,,{\pos(165.99,108.39)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.09,0:20:01.13,Sign #3,,0,0,0,,{\pos(166,108.66)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.09,0:20:01.13,Sign #3,,0,0,0,,{\pos(166,108.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.09,0:20:01.13,Sign #3,,0,0,0,,{\pos(166,108.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.09,0:20:01.13,Sign #3,,0,0,0,,{\pos(166,108.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.13,0:20:01.17,Sign #3,,0,0,0,,{\pos(166,108.92)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.13,0:20:01.17,Sign #3,,0,0,0,,{\pos(166,108.92)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.13,0:20:01.17,Sign #3,,0,0,0,,{\pos(166,108.92)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.13,0:20:01.17,Sign #3,,0,0,0,,{\pos(166,108.92)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.17,0:20:01.22,Sign #3,,0,0,0,,{\pos(165.99,109.28)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.17,0:20:01.22,Sign #3,,0,0,0,,{\pos(165.99,109.28)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.17,0:20:01.22,Sign #3,,0,0,0,,{\pos(165.99,109.28)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.17,0:20:01.22,Sign #3,,0,0,0,,{\pos(165.99,109.28)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.22,0:20:01.26,Sign #3,,0,0,0,,{\pos(165.99,109.59)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.22,0:20:01.26,Sign #3,,0,0,0,,{\pos(165.99,109.59)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.22,0:20:01.26,Sign #3,,0,0,0,,{\pos(165.99,109.59)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.22,0:20:01.26,Sign #3,,0,0,0,,{\pos(165.99,109.59)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.26,0:20:01.30,Sign #3,,0,0,0,,{\pos(166,109.87)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.26,0:20:01.30,Sign #3,,0,0,0,,{\pos(166,109.87)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.26,0:20:01.30,Sign #3,,0,0,0,,{\pos(166,109.87)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.26,0:20:01.30,Sign #3,,0,0,0,,{\pos(166,109.87)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.30,0:20:01.34,Sign #3,,0,0,0,,{\pos(165.97,110.18)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.30,0:20:01.34,Sign #3,,0,0,0,,{\pos(165.97,110.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.30,0:20:01.34,Sign #3,,0,0,0,,{\pos(165.97,110.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.30,0:20:01.34,Sign #3,,0,0,0,,{\pos(165.97,110.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.34,0:20:01.38,Sign #3,,0,0,0,,{\pos(165.98,110.56)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.34,0:20:01.38,Sign #3,,0,0,0,,{\pos(165.98,110.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.34,0:20:01.38,Sign #3,,0,0,0,,{\pos(165.98,110.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.34,0:20:01.38,Sign #3,,0,0,0,,{\pos(165.98,110.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 9,0:20:01.35,0:20:02.18,Default,,0,0,0,,Yes, ma'am.
+Dialogue: 1,0:20:01.38,0:20:01.43,Sign #3,,0,0,0,,{\pos(165.97,110.88)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.38,0:20:01.43,Sign #3,,0,0,0,,{\pos(165.97,110.88)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.38,0:20:01.43,Sign #3,,0,0,0,,{\pos(165.97,110.88)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.38,0:20:01.43,Sign #3,,0,0,0,,{\pos(165.97,110.88)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.43,0:20:01.47,Sign #3,,0,0,0,,{\pos(165.96,111.18)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.43,0:20:01.47,Sign #3,,0,0,0,,{\pos(165.96,111.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.43,0:20:01.47,Sign #3,,0,0,0,,{\pos(165.96,111.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.43,0:20:01.47,Sign #3,,0,0,0,,{\pos(165.96,111.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.47,0:20:01.51,Sign #3,,0,0,0,,{\pos(165.97,111.55)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.47,0:20:01.51,Sign #3,,0,0,0,,{\pos(165.97,111.55)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.47,0:20:01.51,Sign #3,,0,0,0,,{\pos(165.97,111.55)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.47,0:20:01.51,Sign #3,,0,0,0,,{\pos(165.97,111.55)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.51,0:20:01.55,Sign #3,,0,0,0,,{\pos(165.97,111.86)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.51,0:20:01.55,Sign #3,,0,0,0,,{\pos(165.97,111.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.51,0:20:01.55,Sign #3,,0,0,0,,{\pos(165.97,111.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.51,0:20:01.55,Sign #3,,0,0,0,,{\pos(165.97,111.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.55,0:20:01.59,Sign #3,,0,0,0,,{\pos(165.96,112.07)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.55,0:20:01.59,Sign #3,,0,0,0,,{\pos(165.96,112.07)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.55,0:20:01.59,Sign #3,,0,0,0,,{\pos(165.96,112.07)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.55,0:20:01.59,Sign #3,,0,0,0,,{\pos(165.96,112.07)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.59,0:20:01.63,Sign #3,,0,0,0,,{\pos(165.95,112.53)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.59,0:20:01.63,Sign #3,,0,0,0,,{\pos(165.95,112.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.59,0:20:01.63,Sign #3,,0,0,0,,{\pos(165.95,112.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.59,0:20:01.63,Sign #3,,0,0,0,,{\pos(165.95,112.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.63,0:20:01.68,Sign #3,,0,0,0,,{\pos(165.94,112.81)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.63,0:20:01.68,Sign #3,,0,0,0,,{\pos(165.94,112.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.63,0:20:01.68,Sign #3,,0,0,0,,{\pos(165.94,112.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.63,0:20:01.68,Sign #3,,0,0,0,,{\pos(165.94,112.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.68,0:20:01.72,Sign #3,,0,0,0,,{\pos(165.97,113.14)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.68,0:20:01.72,Sign #3,,0,0,0,,{\pos(165.97,113.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.68,0:20:01.72,Sign #3,,0,0,0,,{\pos(165.97,113.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.68,0:20:01.72,Sign #3,,0,0,0,,{\pos(165.97,113.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.72,0:20:01.76,Sign #3,,0,0,0,,{\pos(165.96,113.53)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.72,0:20:01.76,Sign #3,,0,0,0,,{\pos(165.96,113.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.72,0:20:01.76,Sign #3,,0,0,0,,{\pos(165.96,113.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.72,0:20:01.76,Sign #3,,0,0,0,,{\pos(165.96,113.53)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.76,0:20:01.80,Sign #3,,0,0,0,,{\pos(165.96,113.81)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.76,0:20:01.80,Sign #3,,0,0,0,,{\pos(165.96,113.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.76,0:20:01.80,Sign #3,,0,0,0,,{\pos(165.96,113.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.76,0:20:01.80,Sign #3,,0,0,0,,{\pos(165.96,113.81)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.80,0:20:01.84,Sign #3,,0,0,0,,{\pos(165.95,114.08)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.80,0:20:01.84,Sign #3,,0,0,0,,{\pos(165.95,114.08)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.80,0:20:01.84,Sign #3,,0,0,0,,{\pos(165.95,114.08)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.80,0:20:01.84,Sign #3,,0,0,0,,{\pos(165.95,114.08)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.84,0:20:01.88,Sign #3,,0,0,0,,{\pos(165.95,114.38)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.84,0:20:01.88,Sign #3,,0,0,0,,{\pos(165.95,114.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.84,0:20:01.88,Sign #3,,0,0,0,,{\pos(165.95,114.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.84,0:20:01.88,Sign #3,,0,0,0,,{\pos(165.95,114.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.88,0:20:01.93,Sign #3,,0,0,0,,{\pos(165.94,114.66)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.88,0:20:01.93,Sign #3,,0,0,0,,{\pos(165.94,114.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.88,0:20:01.93,Sign #3,,0,0,0,,{\pos(165.94,114.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.88,0:20:01.93,Sign #3,,0,0,0,,{\pos(165.94,114.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.93,0:20:01.97,Sign #3,,0,0,0,,{\pos(165.95,114.94)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.93,0:20:01.97,Sign #3,,0,0,0,,{\pos(165.95,114.94)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.93,0:20:01.97,Sign #3,,0,0,0,,{\pos(165.95,114.94)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.93,0:20:01.97,Sign #3,,0,0,0,,{\pos(165.95,114.94)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:01.97,0:20:02.01,Sign #3,,0,0,0,,{\pos(165.94,115.38)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:01.97,0:20:02.01,Sign #3,,0,0,0,,{\pos(165.94,115.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.97,0:20:02.01,Sign #3,,0,0,0,,{\pos(165.94,115.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:01.97,0:20:02.01,Sign #3,,0,0,0,,{\pos(165.94,115.38)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.01,0:20:02.05,Sign #3,,0,0,0,,{\pos(165.94,115.66)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.01,0:20:02.05,Sign #3,,0,0,0,,{\pos(165.94,115.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.01,0:20:02.05,Sign #3,,0,0,0,,{\pos(165.94,115.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.01,0:20:02.05,Sign #3,,0,0,0,,{\pos(165.94,115.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.05,0:20:02.09,Sign #3,,0,0,0,,{\pos(165.94,115.96)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.05,0:20:02.09,Sign #3,,0,0,0,,{\pos(165.94,115.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.05,0:20:02.09,Sign #3,,0,0,0,,{\pos(165.94,115.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.05,0:20:02.09,Sign #3,,0,0,0,,{\pos(165.94,115.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.09,0:20:02.13,Sign #3,,0,0,0,,{\pos(165.98,116.36)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.09,0:20:02.13,Sign #3,,0,0,0,,{\pos(165.98,116.36)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.09,0:20:02.13,Sign #3,,0,0,0,,{\pos(165.98,116.36)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.09,0:20:02.13,Sign #3,,0,0,0,,{\pos(165.98,116.36)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.13,0:20:02.18,Sign #3,,0,0,0,,{\pos(166.01,116.62)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.13,0:20:02.18,Sign #3,,0,0,0,,{\pos(166.01,116.62)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.13,0:20:02.18,Sign #3,,0,0,0,,{\pos(166.01,116.62)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.13,0:20:02.18,Sign #3,,0,0,0,,{\pos(166.01,116.62)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.18,0:20:02.22,Sign #3,,0,0,0,,{\pos(166.05,116.86)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.18,0:20:02.22,Sign #3,,0,0,0,,{\pos(166.05,116.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.18,0:20:02.22,Sign #3,,0,0,0,,{\pos(166.05,116.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.18,0:20:02.22,Sign #3,,0,0,0,,{\pos(166.05,116.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.22,0:20:02.26,Sign #3,,0,0,0,,{\pos(166.09,117.16)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.22,0:20:02.26,Sign #3,,0,0,0,,{\pos(166.09,117.16)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.22,0:20:02.26,Sign #3,,0,0,0,,{\pos(166.09,117.16)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.22,0:20:02.26,Sign #3,,0,0,0,,{\pos(166.09,117.16)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.26,0:20:02.30,Sign #3,,0,0,0,,{\pos(166.13,117.5)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.26,0:20:02.30,Sign #3,,0,0,0,,{\pos(166.13,117.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.26,0:20:02.30,Sign #3,,0,0,0,,{\pos(166.13,117.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.26,0:20:02.30,Sign #3,,0,0,0,,{\pos(166.13,117.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.30,0:20:02.34,Sign #3,,0,0,0,,{\pos(166.12,117.75)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.30,0:20:02.34,Sign #3,,0,0,0,,{\pos(166.12,117.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.30,0:20:02.34,Sign #3,,0,0,0,,{\pos(166.12,117.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.30,0:20:02.34,Sign #3,,0,0,0,,{\pos(166.12,117.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.34,0:20:02.38,Sign #3,,0,0,0,,{\pos(166.11,118.1)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.34,0:20:02.38,Sign #3,,0,0,0,,{\pos(166.11,118.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.34,0:20:02.38,Sign #3,,0,0,0,,{\pos(166.11,118.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.34,0:20:02.38,Sign #3,,0,0,0,,{\pos(166.11,118.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.38,0:20:02.43,Sign #3,,0,0,0,,{\pos(166.1,118.51)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.38,0:20:02.43,Sign #3,,0,0,0,,{\pos(166.1,118.51)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.38,0:20:02.43,Sign #3,,0,0,0,,{\pos(166.1,118.51)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.38,0:20:02.43,Sign #3,,0,0,0,,{\pos(166.1,118.51)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.43,0:20:02.47,Sign #3,,0,0,0,,{\pos(166.08,118.78)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.43,0:20:02.47,Sign #3,,0,0,0,,{\pos(166.08,118.78)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.43,0:20:02.47,Sign #3,,0,0,0,,{\pos(166.08,118.78)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.43,0:20:02.47,Sign #3,,0,0,0,,{\pos(166.08,118.78)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.47,0:20:02.51,Sign #3,,0,0,0,,{\pos(166.07,119.1)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.47,0:20:02.51,Sign #3,,0,0,0,,{\pos(166.07,119.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.47,0:20:02.51,Sign #3,,0,0,0,,{\pos(166.07,119.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.47,0:20:02.51,Sign #3,,0,0,0,,{\pos(166.07,119.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.51,0:20:02.55,Sign #3,,0,0,0,,{\pos(166.08,119.47)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.51,0:20:02.55,Sign #3,,0,0,0,,{\pos(166.08,119.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.51,0:20:02.55,Sign #3,,0,0,0,,{\pos(166.08,119.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.51,0:20:02.55,Sign #3,,0,0,0,,{\pos(166.08,119.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.55,0:20:02.59,Sign #3,,0,0,0,,{\pos(166.06,119.75)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.55,0:20:02.59,Sign #3,,0,0,0,,{\pos(166.06,119.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.55,0:20:02.59,Sign #3,,0,0,0,,{\pos(166.06,119.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.55,0:20:02.59,Sign #3,,0,0,0,,{\pos(166.06,119.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.59,0:20:02.63,Sign #3,,0,0,0,,{\pos(166.06,119.99)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.59,0:20:02.63,Sign #3,,0,0,0,,{\pos(166.06,119.99)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.59,0:20:02.63,Sign #3,,0,0,0,,{\pos(166.06,119.99)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.59,0:20:02.63,Sign #3,,0,0,0,,{\pos(166.06,119.99)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.63,0:20:02.68,Sign #3,,0,0,0,,{\pos(166.06,120.46)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.63,0:20:02.68,Sign #3,,0,0,0,,{\pos(166.06,120.46)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.63,0:20:02.68,Sign #3,,0,0,0,,{\pos(166.06,120.46)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.63,0:20:02.68,Sign #3,,0,0,0,,{\pos(166.06,120.46)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.68,0:20:02.72,Sign #3,,0,0,0,,{\pos(166.07,120.74)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.68,0:20:02.72,Sign #3,,0,0,0,,{\pos(166.07,120.74)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.68,0:20:02.72,Sign #3,,0,0,0,,{\pos(166.07,120.74)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.68,0:20:02.72,Sign #3,,0,0,0,,{\pos(166.07,120.74)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.72,0:20:02.76,Sign #3,,0,0,0,,{\pos(166.1,121.03)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.72,0:20:02.76,Sign #3,,0,0,0,,{\pos(166.1,121.03)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.72,0:20:02.76,Sign #3,,0,0,0,,{\pos(166.1,121.03)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.72,0:20:02.76,Sign #3,,0,0,0,,{\pos(166.1,121.03)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.76,0:20:02.80,Sign #3,,0,0,0,,{\pos(166.13,121.31)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.76,0:20:02.80,Sign #3,,0,0,0,,{\pos(166.13,121.31)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.76,0:20:02.80,Sign #3,,0,0,0,,{\pos(166.13,121.31)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.76,0:20:02.80,Sign #3,,0,0,0,,{\pos(166.13,121.31)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.80,0:20:02.84,Sign #3,,0,0,0,,{\pos(166.16,121.66)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.80,0:20:02.84,Sign #3,,0,0,0,,{\pos(166.16,121.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.80,0:20:02.84,Sign #3,,0,0,0,,{\pos(166.16,121.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.80,0:20:02.84,Sign #3,,0,0,0,,{\pos(166.16,121.66)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.84,0:20:02.88,Sign #3,,0,0,0,,{\pos(166.2,121.91)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.84,0:20:02.88,Sign #3,,0,0,0,,{\pos(166.2,121.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.84,0:20:02.88,Sign #3,,0,0,0,,{\pos(166.2,121.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.84,0:20:02.88,Sign #3,,0,0,0,,{\pos(166.2,121.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.88,0:20:02.93,Sign #3,,0,0,0,,{\pos(166.23,122.24)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.88,0:20:02.93,Sign #3,,0,0,0,,{\pos(166.23,122.24)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.88,0:20:02.93,Sign #3,,0,0,0,,{\pos(166.23,122.24)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.88,0:20:02.93,Sign #3,,0,0,0,,{\pos(166.23,122.24)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.93,0:20:02.97,Sign #3,,0,0,0,,{\pos(166.26,122.54)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.93,0:20:02.97,Sign #3,,0,0,0,,{\pos(166.26,122.54)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.93,0:20:02.97,Sign #3,,0,0,0,,{\pos(166.26,122.54)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.93,0:20:02.97,Sign #3,,0,0,0,,{\pos(166.26,122.54)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:02.97,0:20:03.01,Sign #3,,0,0,0,,{\pos(166.28,122.86)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:02.97,0:20:03.01,Sign #3,,0,0,0,,{\pos(166.28,122.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.97,0:20:03.01,Sign #3,,0,0,0,,{\pos(166.28,122.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:02.97,0:20:03.01,Sign #3,,0,0,0,,{\pos(166.28,122.86)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.01,0:20:03.05,Sign #3,,0,0,0,,{\pos(166.32,123.11)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.01,0:20:03.05,Sign #3,,0,0,0,,{\pos(166.32,123.11)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.01,0:20:03.05,Sign #3,,0,0,0,,{\pos(166.32,123.11)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.01,0:20:03.05,Sign #3,,0,0,0,,{\pos(166.32,123.11)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.05,0:20:03.09,Sign #3,,0,0,0,,{\pos(166.33,123.47)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.05,0:20:03.09,Sign #3,,0,0,0,,{\pos(166.33,123.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.05,0:20:03.09,Sign #3,,0,0,0,,{\pos(166.33,123.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.05,0:20:03.09,Sign #3,,0,0,0,,{\pos(166.33,123.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.09,0:20:03.14,Sign #3,,0,0,0,,{\pos(166.34,123.75)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.09,0:20:03.14,Sign #3,,0,0,0,,{\pos(166.34,123.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.09,0:20:03.14,Sign #3,,0,0,0,,{\pos(166.34,123.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.09,0:20:03.14,Sign #3,,0,0,0,,{\pos(166.34,123.75)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.14,0:20:03.18,Sign #3,,0,0,0,,{\pos(166.36,124.06)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.14,0:20:03.18,Sign #3,,0,0,0,,{\pos(166.36,124.06)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.14,0:20:03.18,Sign #3,,0,0,0,,{\pos(166.36,124.06)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.14,0:20:03.18,Sign #3,,0,0,0,,{\pos(166.36,124.06)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.18,0:20:03.22,Sign #3,,0,0,0,,{\pos(166.37,124.44)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.18,0:20:03.22,Sign #3,,0,0,0,,{\pos(166.37,124.44)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.18,0:20:03.22,Sign #3,,0,0,0,,{\pos(166.37,124.44)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.18,0:20:03.22,Sign #3,,0,0,0,,{\pos(166.37,124.44)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.22,0:20:03.26,Sign #3,,0,0,0,,{\pos(166.39,124.69)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.22,0:20:03.26,Sign #3,,0,0,0,,{\pos(166.39,124.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.22,0:20:03.26,Sign #3,,0,0,0,,{\pos(166.39,124.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.22,0:20:03.26,Sign #3,,0,0,0,,{\pos(166.39,124.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.26,0:20:03.30,Sign #3,,0,0,0,,{\pos(166.4,125.01)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.26,0:20:03.30,Sign #3,,0,0,0,,{\pos(166.4,125.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.26,0:20:03.30,Sign #3,,0,0,0,,{\pos(166.4,125.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.26,0:20:03.30,Sign #3,,0,0,0,,{\pos(166.4,125.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.30,0:20:03.34,Sign #3,,0,0,0,,{\pos(166.4,125.4)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.30,0:20:03.34,Sign #3,,0,0,0,,{\pos(166.4,125.4)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.30,0:20:03.34,Sign #3,,0,0,0,,{\pos(166.4,125.4)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.30,0:20:03.34,Sign #3,,0,0,0,,{\pos(166.4,125.4)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.34,0:20:03.39,Sign #3,,0,0,0,,{\pos(166.42,125.69)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.34,0:20:03.39,Sign #3,,0,0,0,,{\pos(166.42,125.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.34,0:20:03.39,Sign #3,,0,0,0,,{\pos(166.42,125.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.34,0:20:03.39,Sign #3,,0,0,0,,{\pos(166.42,125.69)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.39,0:20:03.43,Sign #3,,0,0,0,,{\pos(166.42,125.96)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.39,0:20:03.43,Sign #3,,0,0,0,,{\pos(166.42,125.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.39,0:20:03.43,Sign #3,,0,0,0,,{\pos(166.42,125.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.39,0:20:03.43,Sign #3,,0,0,0,,{\pos(166.42,125.96)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.43,0:20:03.47,Sign #3,,0,0,0,,{\pos(166.46,126.26)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.43,0:20:03.47,Sign #3,,0,0,0,,{\pos(166.46,126.26)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.43,0:20:03.47,Sign #3,,0,0,0,,{\pos(166.46,126.26)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.43,0:20:03.47,Sign #3,,0,0,0,,{\pos(166.46,126.26)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.47,0:20:03.51,Sign #3,,0,0,0,,{\pos(166.46,126.65)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.47,0:20:03.51,Sign #3,,0,0,0,,{\pos(166.46,126.65)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.47,0:20:03.51,Sign #3,,0,0,0,,{\pos(166.46,126.65)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.47,0:20:03.51,Sign #3,,0,0,0,,{\pos(166.46,126.65)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.51,0:20:03.55,Sign #3,,0,0,0,,{\pos(166.48,126.9)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.51,0:20:03.55,Sign #3,,0,0,0,,{\pos(166.48,126.9)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.51,0:20:03.55,Sign #3,,0,0,0,,{\pos(166.48,126.9)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.51,0:20:03.55,Sign #3,,0,0,0,,{\pos(166.48,126.9)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.55,0:20:03.59,Sign #3,,0,0,0,,{\pos(166.47,127.14)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.55,0:20:03.59,Sign #3,,0,0,0,,{\pos(166.47,127.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.55,0:20:03.59,Sign #3,,0,0,0,,{\pos(166.47,127.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.55,0:20:03.59,Sign #3,,0,0,0,,{\pos(166.47,127.14)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.59,0:20:03.64,Sign #3,,0,0,0,,{\pos(166.48,127.56)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.59,0:20:03.64,Sign #3,,0,0,0,,{\pos(166.48,127.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.59,0:20:03.64,Sign #3,,0,0,0,,{\pos(166.48,127.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.59,0:20:03.64,Sign #3,,0,0,0,,{\pos(166.48,127.56)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.64,0:20:03.68,Sign #3,,0,0,0,,{\pos(166.48,127.79)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.64,0:20:03.68,Sign #3,,0,0,0,,{\pos(166.48,127.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.64,0:20:03.68,Sign #3,,0,0,0,,{\pos(166.48,127.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.64,0:20:03.68,Sign #3,,0,0,0,,{\pos(166.48,127.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.68,0:20:03.72,Sign #3,,0,0,0,,{\pos(166.49,128.1)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.68,0:20:03.72,Sign #3,,0,0,0,,{\pos(166.49,128.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.68,0:20:03.72,Sign #3,,0,0,0,,{\pos(166.49,128.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.68,0:20:03.72,Sign #3,,0,0,0,,{\pos(166.49,128.1)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.72,0:20:03.76,Sign #3,,0,0,0,,{\pos(166.5,128.43)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.72,0:20:03.76,Sign #3,,0,0,0,,{\pos(166.5,128.43)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.72,0:20:03.76,Sign #3,,0,0,0,,{\pos(166.5,128.43)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.72,0:20:03.76,Sign #3,,0,0,0,,{\pos(166.5,128.43)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.76,0:20:03.80,Sign #3,,0,0,0,,{\pos(166.5,128.72)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.76,0:20:03.80,Sign #3,,0,0,0,,{\pos(166.5,128.72)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.76,0:20:03.80,Sign #3,,0,0,0,,{\pos(166.5,128.72)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.76,0:20:03.80,Sign #3,,0,0,0,,{\pos(166.5,128.72)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.80,0:20:03.84,Sign #3,,0,0,0,,{\pos(166.51,129.04)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.80,0:20:03.84,Sign #3,,0,0,0,,{\pos(166.51,129.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.80,0:20:03.84,Sign #3,,0,0,0,,{\pos(166.51,129.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.80,0:20:03.84,Sign #3,,0,0,0,,{\pos(166.51,129.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.84,0:20:03.89,Sign #3,,0,0,0,,{\pos(166.51,129.33)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.84,0:20:03.89,Sign #3,,0,0,0,,{\pos(166.51,129.33)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.84,0:20:03.89,Sign #3,,0,0,0,,{\pos(166.51,129.33)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.84,0:20:03.89,Sign #3,,0,0,0,,{\pos(166.51,129.33)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.89,0:20:03.93,Sign #3,,0,0,0,,{\pos(166.51,129.64)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.89,0:20:03.93,Sign #3,,0,0,0,,{\pos(166.51,129.64)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.89,0:20:03.93,Sign #3,,0,0,0,,{\pos(166.51,129.64)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.89,0:20:03.93,Sign #3,,0,0,0,,{\pos(166.51,129.64)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.93,0:20:03.97,Sign #3,,0,0,0,,{\pos(166.51,129.91)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.93,0:20:03.97,Sign #3,,0,0,0,,{\pos(166.51,129.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.93,0:20:03.97,Sign #3,,0,0,0,,{\pos(166.51,129.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.93,0:20:03.97,Sign #3,,0,0,0,,{\pos(166.51,129.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:03.97,0:20:04.01,Sign #3,,0,0,0,,{\pos(166.51,130.27)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:03.97,0:20:04.01,Sign #3,,0,0,0,,{\pos(166.51,130.27)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.97,0:20:04.01,Sign #3,,0,0,0,,{\pos(166.51,130.27)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:03.97,0:20:04.01,Sign #3,,0,0,0,,{\pos(166.51,130.27)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.01,0:20:04.05,Sign #3,,0,0,0,,{\pos(166.52,130.57)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.01,0:20:04.05,Sign #3,,0,0,0,,{\pos(166.52,130.57)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.01,0:20:04.05,Sign #3,,0,0,0,,{\pos(166.52,130.57)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.01,0:20:04.05,Sign #3,,0,0,0,,{\pos(166.52,130.57)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.05,0:20:04.09,Sign #3,,0,0,0,,{\pos(166.51,130.83)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.05,0:20:04.09,Sign #3,,0,0,0,,{\pos(166.51,130.83)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.05,0:20:04.09,Sign #3,,0,0,0,,{\pos(166.51,130.83)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.05,0:20:04.09,Sign #3,,0,0,0,,{\pos(166.51,130.83)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.09,0:20:04.14,Sign #3,,0,0,0,,{\pos(166.53,131.18)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.09,0:20:04.14,Sign #3,,0,0,0,,{\pos(166.53,131.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.09,0:20:04.14,Sign #3,,0,0,0,,{\pos(166.53,131.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.09,0:20:04.14,Sign #3,,0,0,0,,{\pos(166.53,131.18)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.14,0:20:04.18,Sign #3,,0,0,0,,{\pos(166.53,131.5)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.14,0:20:04.18,Sign #3,,0,0,0,,{\pos(166.53,131.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.14,0:20:04.18,Sign #3,,0,0,0,,{\pos(166.53,131.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.14,0:20:04.18,Sign #3,,0,0,0,,{\pos(166.53,131.5)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.18,0:20:04.22,Sign #3,,0,0,0,,{\pos(166.53,131.79)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.18,0:20:04.22,Sign #3,,0,0,0,,{\pos(166.53,131.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.18,0:20:04.22,Sign #3,,0,0,0,,{\pos(166.53,131.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.18,0:20:04.22,Sign #3,,0,0,0,,{\pos(166.53,131.79)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.22,0:20:04.26,Sign #3,,0,0,0,,{\pos(166.53,132.04)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.22,0:20:04.26,Sign #3,,0,0,0,,{\pos(166.53,132.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.22,0:20:04.26,Sign #3,,0,0,0,,{\pos(166.53,132.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.22,0:20:04.26,Sign #3,,0,0,0,,{\pos(166.53,132.04)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.26,0:20:04.30,Sign #3,,0,0,0,,{\pos(166.53,132.47)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.26,0:20:04.30,Sign #3,,0,0,0,,{\pos(166.53,132.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.26,0:20:04.30,Sign #3,,0,0,0,,{\pos(166.53,132.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.26,0:20:04.30,Sign #3,,0,0,0,,{\pos(166.53,132.47)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.30,0:20:04.34,Sign #3,,0,0,0,,{\pos(166.52,132.73)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.30,0:20:04.34,Sign #3,,0,0,0,,{\pos(166.52,132.73)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.30,0:20:04.34,Sign #3,,0,0,0,,{\pos(166.52,132.73)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.30,0:20:04.34,Sign #3,,0,0,0,,{\pos(166.52,132.73)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.34,0:20:04.39,Sign #3,,0,0,0,,{\pos(166.54,133.01)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.34,0:20:04.39,Sign #3,,0,0,0,,{\pos(166.54,133.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.34,0:20:04.39,Sign #3,,0,0,0,,{\pos(166.54,133.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.34,0:20:04.39,Sign #3,,0,0,0,,{\pos(166.54,133.01)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.39,0:20:04.43,Sign #3,,0,0,0,,{\pos(166.53,133.32)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.39,0:20:04.43,Sign #3,,0,0,0,,{\pos(166.53,133.32)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.39,0:20:04.43,Sign #3,,0,0,0,,{\pos(166.53,133.32)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.39,0:20:04.43,Sign #3,,0,0,0,,{\pos(166.53,133.32)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.43,0:20:04.47,Sign #3,,0,0,0,,{\pos(166.52,133.63)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.43,0:20:04.47,Sign #3,,0,0,0,,{\pos(166.52,133.63)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.43,0:20:04.47,Sign #3,,0,0,0,,{\pos(166.52,133.63)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.43,0:20:04.47,Sign #3,,0,0,0,,{\pos(166.52,133.63)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 1,0:20:04.47,0:20:04.51,Sign #3,,0,0,0,,{\pos(166.53,133.91)\c&H6153D8&\blur0.5\fs40}Yes, ma'am.
+Dialogue: 0,0:20:04.47,0:20:04.51,Sign #3,,0,0,0,,{\pos(166.53,133.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.47,0:20:04.51,Sign #3,,0,0,0,,{\pos(166.53,133.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 0,0:20:04.47,0:20:04.51,Sign #3,,0,0,0,,{\pos(166.53,133.91)\1a&HFF&\bord0.5\fs40\be0.5\3c&H474D81&}Yes, ma'am.
+Dialogue: 9,0:20:04.51,0:20:07.16,Default,,0,0,0,,We were fools!
+Dialogue: 9,0:20:06.53,0:20:07.80,Alternative,,0,0,0,,{oyurushi wo}Forgive us!
+Dialogue: 9,0:20:07.16,0:20:09.78,Default,,0,0,0,,{motto shikatte kudasai}Scold us more, Momo-sama!
+Dialogue: 9,0:20:07.80,0:20:10.77,Alternative,,0,0,0,,{oshioki shite kudasai}Punish us, Momo-sama!
+Dialogue: 9,0:20:10.77,0:20:12.06,Default,,0,0,0,,Ow...
+Dialogue: 9,0:20:12.06,0:20:14.53,Default,,0,0,0,,Are you okay, Rito-san?
+Dialogue: 9,0:20:14.53,0:20:17.16,Default,,0,0,0,,Jeez, you ruined everything, Mea-san.
+Dialogue: 9,0:20:17.16,0:20:22.04,Default,,0,0,0,,Well, it was not fair of you \Nto flirt with him in secret!
+Dialogue: 9,0:20:26.43,0:20:28.02,Default,,0,0,0,,{\i1}Not fair?
+Dialogue: 9,0:20:28.02,0:20:30.70,Default,,0,0,0,,{\i1}I'll never understand the way she thinks.
+Dialogue: 9,0:20:32.39,0:20:34.98,Default,,0,0,0,,{\i1}I should be more careful next time.
+Dialogue: 9,0:20:37.53,0:20:40.32,Default,,0,0,0,,{\i1}Back there, why did I...
+Dialogue: 9,0:20:44.34,0:20:46.20,Default,,0,0,0,,{\i1}I'm pathetic.
+Dialogue: 9,0:20:46.20,0:20:50.27,Default,,0,0,0,,{\i1}I guess I still lack determination.
+Dialogue: 9,0:20:53.81,0:20:56.81,Default,,0,0,0,,{\i1}Why did she react like that earlier?
+Dialogue: 9,0:20:57.91,0:21:01.32,Default,,0,0,0,,{\i1}And why does she insist on\N assembling a harem for me?
+Dialogue: 9,0:21:02.27,0:21:06.06,Default,,0,0,0,,{\i1}Was she being honest when she said that as the third princess of Deviluke,
+Dialogue: 9,0:21:06.06,0:21:09.76,Default,,0,0,0,,{\i1}she wants to work out the issue of who will take the throne and help Lala earn my love?
+Dialogue: 9,0:21:10.29,0:21:11.83,Default,,0,0,0,,{\i1}Or was she...
+Dialogue: 4,0:21:35.81,0:21:38.06,ed kara,,0,0,0,,{\an7\fad(200,200)\blur1}(shikaku) keikoku ieroo kaado
+Dialogue: 4,0:21:35.81,0:21:38.06,ed trans,,0,0,0,,{\an1\fad(200,200)\blur1}Warning! Yellow card!
+Dialogue: 4,0:21:37.43,0:21:38.98,ed kara,,0,0,0,,{\an9\fad(200,200)\blur1}girigiri seefu
+Dialogue: 4,0:21:37.43,0:21:38.98,ed trans,,0,0,0,,{\an3\fad(200,200)\blur1}Just barely made it
+Dialogue: 4,0:21:38.73,0:21:41.31,ed kara,,0,0,0,,{\blur1\fad(200,200)}(sankaku) kankei no toraburu
+Dialogue: 4,0:21:38.73,0:21:41.31,ed trans,,0,0,0,,{\blur1\fad(200,200)}Got trouble with a love triangle
+Dialogue: 4,0:21:40.52,0:21:41.56,ed kara,,0,0,0,,{\an9\blur1\fad(200,200)}autoo
+Dialogue: 4,0:21:40.52,0:21:41.56,ed trans,,0,0,0,,{\an3\blur1\fad(200,200)}You're out!
+Dialogue: 4,0:21:41.40,0:21:46.82,ed kara,,0,0,0,,{\blur1\fad(200,200)}kimi wo miru to hansoku shitaku nacchau
+Dialogue: 4,0:21:41.40,0:21:46.82,ed trans,,0,0,0,,{\blur1\fad(200,200)}Whenever I see you, I just have to break all the rules!
+Dialogue: 4,0:21:47.07,0:21:50.07,ed kara,,0,0,0,,{\fad(200,200)\blur1}saa pinchi mo chansu mo matomete oorai
+Dialogue: 4,0:21:47.07,0:21:50.07,ed trans,,0,0,0,,{\fad(200,200)\blur1}Now's the time to solve all those problems and opportunities
+Dialogue: 4,0:21:50.07,0:21:53.07,ed kara,,0,0,0,,{\fad(200,200)\blur1}youishuutou ruuru wa yomazu ni goo
+Dialogue: 4,0:21:50.07,0:21:53.07,ed trans,,0,0,0,,{\fad(200,200)\blur1}Let's just go, ignoring all those boring rules
+Dialogue: 4,0:21:53.07,0:21:55.99,ed kara,,0,0,0,,{\fad(200,200)\blur1}kimi ni au tabi zenbu no kimochi
+Dialogue: 4,0:21:53.07,0:21:55.99,ed trans,,0,0,0,,{\fad(200,200)\blur1}Whenever I'm by your side, all my feelings
+Dialogue: 4,0:21:55.99,0:21:59.08,ed kara,,0,0,0,,{\fad(200,200)\blur1}zutto guruguru shiteru
+Dialogue: 4,0:21:55.99,0:21:59.08,ed trans,,0,0,0,,{\fad(200,200)\blur1}Just swirl inside of me
+Dialogue: 4,0:21:59.08,0:22:07.55,ed kara,,0,0,0,,{\an9\fad(200,200)\blur1}atama no naka kimi wa dare to randebu shiteru no
+Dialogue: 4,0:21:59.08,0:22:07.55,ed trans,,0,0,0,,{\an3\fad(200,200)\blur1}And in my head, I'm just wondering who you're out with right now
+Dialogue: 4,0:22:07.55,0:22:17.51,ed kara,,0,0,0,,{\an7\fad(200,200)\blur1}motto waku waku suru reberu tameshite mitai na
+Dialogue: 4,0:22:07.55,0:22:17.51,ed trans,,0,0,0,,{\an1\fad(200,200)\blur1}I'd just like to try this out in a more exciting way!
+Dialogue: 4,0:22:17.51,0:22:19.66,ed kara,,0,0,0,,{\fad(200,200)\blur1}kore wa koi da
+Dialogue: 4,0:22:17.51,0:22:19.66,ed trans,,0,0,0,,{\fad(200,200)\blur1}This is love!
+Dialogue: 4,0:22:19.66,0:22:24.10,ed kara,,0,0,0,,{\fad(200,200)\blur1}sora yori hiroi umi yori mo fukai
+Dialogue: 4,0:22:19.66,0:22:24.10,ed trans,,0,0,0,,{\fad(200,200)\blur1}Vaster than any sky; deeper than any ocean
+Dialogue: 4,0:22:24.10,0:22:29.94,ed kara,,0,0,0,,{\fad(200,200)\blur1}ginga no hate no hoshi no nami ni mo osamarikirannai
+Dialogue: 4,0:22:24.10,0:22:29.94,ed trans,,0,0,0,,{\fad(200,200)\blur1}Even all the stars in the galaxy can't hold it back
+Dialogue: 4,0:22:29.94,0:22:31.48,ed kara,,0,0,0,,{\fad(200,200)\blur1}kitto koi da
+Dialogue: 4,0:22:29.94,0:22:31.48,ed trans,,0,0,0,,{\fad(200,200)\blur1}This is definitely love!
+Dialogue: 4,0:22:31.48,0:22:38.87,ed kara,,0,0,0,,{\fad(200,200)\blur1}hitei shite mo iukoto kikanai mune no kodou ga takanatteru yo
+Dialogue: 4,0:22:31.48,0:22:38.87,ed trans,,0,0,0,,{\fad(200,200)\blur1}There's no denying it with my heart beating faster and faster
+Dialogue: 4,0:22:38.87,0:22:43.00,ed kara,,0,0,0,,{\fad(200,200)\blur1}itsumo doki doki
+Dialogue: 4,0:22:38.87,0:22:43.00,ed trans,,0,0,0,,{\fad(200,200)\blur1}I'm always so excited!
+Dialogue: 9,0:23:18.89,0:23:20.52,Default,,0,0,0,,Good morning.
+Dialogue: 9,0:23:29.17,0:23:29.88,Default,,0,0,0,,M-Momo?!
+Dialogue: 9,0:23:31.59,0:23:33.09,Default,,0,0,0,,Rito-san!
+Dialogue: 9,0:23:33.73,0:23:38.26,Default,,0,0,0,,{\i1}I should share this happiness with everyone, right?
